@@ -77,11 +77,6 @@ plugins {
 
 之后我们就可以使用了
 
-## Demo
-
-[demo 在这](https://github.com/Flywith24/VersionControlDemo)
-
-
 
 ## 往期文章
 
