@@ -1,0 +1,5 @@
+includeBuild("version")
+
+rootProject.name='VersionControlDemo'
+include ':app'
+include ':lib'
