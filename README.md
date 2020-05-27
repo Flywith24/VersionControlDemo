@@ -79,12 +79,6 @@ plugins {
 
 ## Demo
 
-![demo代码截图](https://gitee.com/flywith24/Album/raw/master/img/20200527113952.png)
-
-![demo代码截图](https://gitee.com/flywith24/Album/raw/master/img/20200527114023.png)
-
-
-
 [demo 在这](https://github.com/Flywith24/VersionControlDemo)
 
 
