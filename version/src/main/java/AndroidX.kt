@@ -1,5 +1,3 @@
-package com.flywith24.version.dependencies
-
 /**
  * @author yyz (杨云召)
  * @date   2020/1/13
@@ -20,6 +18,8 @@ object AndroidX {
     const val viewpager = "androidx.viewpager:viewpager:1.0.0"
 
 
+    val fragment = Fragment
+
     object Fragment {
         private const val fragment_version = "1.3.0-alpha05"
         const val fragment = "androidx.fragment:fragment:$fragment_version"
@@ -27,16 +27,20 @@ object AndroidX {
         const val fragmentTesting = "androidx.fragment:fragment-testing:$fragment_version"
     }
 
+    val lifecyle = Lifecycle
 
     object Lifecycle {
         private const val lifecycle_version = "2.2.0"
         const val liveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
         const val viewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
-        const val viewModelSavedState = "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+        const val viewModelSavedState =
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
         const val commonJava8 = "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
         const val service = "androidx.lifecycle:lifecycle-service:$lifecycle_version"
     }
-    
+
+
+    val navigation = Navigation
 
     object Navigation {
         private const val navigation_version = "2.1.0"
@@ -44,6 +48,8 @@ object AndroidX {
         const val uiKtx = "androidx.navigation:navigation-ui-ktx:$navigation_version"
     }
 
+
+    val room = Room
 
     object Room {
         private const val room_version = "2.2.5"

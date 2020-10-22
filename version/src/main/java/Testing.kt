@@ -1,5 +1,3 @@
-package com.flywith24.version.dependencies
-
 /**
  * @author yyz (杨云召)
  * @date   2020/1/14
